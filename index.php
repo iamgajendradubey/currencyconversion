@@ -1,5 +1,6 @@
 
 <?php
+header("Content-Type:application/json");
 if (isset($_GET['from']) && isset($_GET['to'])) {
 	if (isset($_GET['amount'])) {
 		$from = $_GET['from'];
