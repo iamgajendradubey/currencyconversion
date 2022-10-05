@@ -33,7 +33,7 @@ if (isset($_GET['from']) && isset($_GET['to'])) {
 			echo $response;
 		}
 	}else {
-		echo json_encode("Please pass amount parameter");
+		echo json_encode("Please pass amount as parameter");
 	}
 } else {
 	echo json_encode("Please pass the all parameter");
