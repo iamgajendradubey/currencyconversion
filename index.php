@@ -9,7 +9,8 @@ $response = [
     "new_amount"=> $amount*1.02,
     "new_currency"=> $to,
     "old_currency"=> $from,
-    "old_amount"=>$amount
+    "old_amount"=>$amount,
+"current_rate"=>1.02
 ];
 
 echo json_encode($response);
